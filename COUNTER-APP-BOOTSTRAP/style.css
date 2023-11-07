@@ -10,5 +10,10 @@ body{
 
 button{
     margin: 20px !important;
-    border: 2px solid black;
+    border: 2px solid black !important;
+}
+
+h1{
+    font-weight: bolder !important ;
+    margin: 20px !important;
 }
