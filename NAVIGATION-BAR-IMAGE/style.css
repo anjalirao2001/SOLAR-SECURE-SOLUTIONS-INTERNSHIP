@@ -1,0 +1,41 @@
+body{
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+.maindiv{
+    background-image: url("img2.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 0;
+    transition: 0.9s;
+}
+
+button{
+    margin: 20px !important;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 50px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-size: 40px;
+    font-weight: 1000;
+    display: none;
+}
