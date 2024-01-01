@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add and delete using JavaScript</title>
+  </head>
+  <body>
+    <div id="maindiv">
+      <h3>This is first element</h3>
+      <h3>This is second element</h3>
+      <h1>Adding through JavaScript</h1>
+      <h2>Deletion through JavaScript</h2>
+      <h1 id="del">This is deleted</h1>
+    </div>
+  </body>
+</html>
+
+<script>
+  var maindiv = document.getElementById("maindiv");
+  var newh3 = document.createElement("h3");
+  var newh3text = document.createTextNode("This is Third Element");
+
+  newh3.appendChild(newh3text);
+  maindiv.appendChild(newh3);
+
+  //deletion
+
+  var maindiv = document.getElementById("maindiv");
+  var del = document.getElementById("del");
+  maindiv.removeChild(del);
+</script>
