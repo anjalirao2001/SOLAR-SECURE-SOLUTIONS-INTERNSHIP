@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POPUP BUTTON</title>
+  </head>
+  <body>
+    <br /><br />
+    <!--ALERT POPUP  -->
+    <h1>Alert Popup</h1>
+    <button onclick="openAlert()">Open Alert</button>
+
+    <!-- PROMPT POPUP -->
+    <h1>Prompt Popup</h1>
+    <button onclick="openPrompt()">Open Prompt Popup</button>
+
+    <!-- CONFIRMATION POPUP -->
+    <h1>Confirm Popup</h1>
+    <button onclick="openConfirm()">Open Confirm Popup</button>
+  </body>
+</html>
+
+<script>
+  //  ALERT POPUP
+  function openAlert() {
+    alert("The alert popup is opened");
+  }
+  //   PROMPT POPUP
+  function openPrompt() {
+    prompt("The prompt popup is opened");
+  }
+  //   CONFIRMATION POPUP
+  function openConfirm() {
+    confirm("The confirm popup is opened");
+  }
+</script>
